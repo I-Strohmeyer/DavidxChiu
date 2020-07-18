@@ -1,0 +1,11 @@
+main {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
