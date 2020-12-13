@@ -1,11 +1,91 @@
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding: 40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.nav-desktop ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav-desktop ul li {
+  margin-left: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-desktop a {
+  font-weight: 600;
+}
+
 main {
-    background-color: black;
-    color: white;
-    padding: 40px;
-    font-family: 'Open Sans', sans-serif;
-
+  color: white;
+  padding: 40px;
 }
 
-h1, h2, h3 {
-    font-family: 'Poppins', sans-serif;
+.hero {
+  text-align: center;
 }
+
+.hero h1 {
+  line-height: 120%;
+  font-size: 48px;
+}
+
+.hero span {
+  color: #cc1818;
+}
+
+.demo-cta {
+  background-color: #cc1818;
+  color: white;
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 800;
+  border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/*********************************
+* BREAKPOINTS
+*********************************/
+
+@media (min-width: 768px) {
+  .nav-desktop {
+    display: inline-block;
+  }
+  .nav-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .example {
+    padding: 50px 180px;
+  }
+}
+
+@media (min-width: 1440px) {
+    .example {
+      padding: 50px 180px;
+    }
+  }
