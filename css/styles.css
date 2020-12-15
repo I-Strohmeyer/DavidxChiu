@@ -11,6 +11,12 @@ header {
   align-items: center;
 }
 
+.nav-mobile {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
 .nav-desktop {
     display: none;
 }
@@ -64,6 +70,23 @@ main {
   border-radius: 25px;
   cursor: pointer;
 }
+
+.cta-arrow {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/*********************************
+* DEMO
+*********************************/
+
+.demo-vid-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
 
 /*********************************
 * BREAKPOINTS
